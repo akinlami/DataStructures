@@ -19,10 +19,23 @@
 
         public enum MovieRating
         {
+            _u,
+            _12A,
+            _12,
+            _15,
+            _18,
 
         }
 
-        
+        public struct Movie
+        {
+            public string title;
+            public int releaseYear;
+            public double price;
+            public MovieRating rating;
+
+        }
+
 
 
 
